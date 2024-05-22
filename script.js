@@ -36,3 +36,15 @@ function copyText() {
         alert("Please enter the video link first.");
     }
 }
+
+function toggleColorMode() {
+    const body = document.body;
+    const button = document.querySelector(".emoji-button");
+    if (body.classList.contains("night-mode")) {
+        body.classList.remove("night-mode");
+        button.textContent = "🌙";
+    } else {
+        body.classList.add("night-mode");
+        button.textContent = "☀️";
+    }
+}
