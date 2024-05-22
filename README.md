@@ -38,5 +38,5 @@
 <img src="img/Night.PNG" alt="night">
 
 ---
-<h2>© This code is made by Mr.Miner. 2020 - 2024 </h2>
+<h2>This code is made by Mr.Miner. 2020 - 2024 ©</h2>
 <h3>.So any buying, selling or copying of this code is illegal</h3>
