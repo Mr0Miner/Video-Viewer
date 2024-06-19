@@ -1,12 +1,12 @@
+h1 {
+    font-family: "B Koodak";
+    font-size: 65px;
+}
+
 h3 {
     font-size: large;
     font-weight: bold;
     color: #121FCF;
-}
-
-h1{
-    font-family: "B Koodak";
-    font-size: 65px;
 }
 
 img {
@@ -24,8 +24,13 @@ p {
     -webkit-text-fill-color: transparent; 
 }
 
-.sf25 {font-size: 25px;}
-.sf20 {font-size: 20px;}
+.sf25 {
+    font-size: 25px;
+}
+
+.sf20 {
+    font-size: 20px;
+}
 
 .centered-text {
     display: flex;
@@ -34,13 +39,15 @@ p {
     font-family: "Comic Sans MS";
     line-height: inherit;
 }
+
 input {
     font-family: inherit;
     line-height: inherit;
     width: 1000px;
     padding: 10px 20px;
 }
-.button {
+
+.button, .b {
     cursor: pointer;
     font-family: inherit;
     line-height: inherit;
@@ -48,21 +55,6 @@ input {
     padding: 10px 20px;
     border: 2px solid #222;
     color: #000000;
-    text-transform: uppercase;
-    transition: .2s background-color ease;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 15%;
-}
-.button:hover,
-.button:active,
-.button:focus {
-    font-family: inherit;
-    line-height: inherit;
-    background-color: #222;
-    padding: 10px 20px;
-    border: 2px solid #222;
-    color: #fff;
     text-transform: uppercase;
     transition: .2s background-color ease;
     font-size: 13px;
@@ -70,43 +62,23 @@ input {
     border-radius: 15%;
 }
 
-.b {
-    cursor: pointer;
-    font-family: inherit;
-    line-height: inherit;
-    background-color: #ffffff;
-    padding: 10px 20px;
-    border: 2px solid #222;
-    color: #000000;
-    text-transform: uppercase;
-    transition: .2s background-color ease;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 15%;
-}
-.b:hover,
-.b:active,
-.b:focus {
-    font-family: inherit;
-    line-height: inherit;
+.button:hover, .button:active, .button:focus,
+.b:hover, .b:active, .b:focus {
     background-color: #222;
-    padding: 10px 20px;
     border: 2px solid #222;
     color: #fff;
-    text-transform: uppercase;
-    transition: .2s background-color ease;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 15%;
 }
+
 .day-mode {
     background-color: white;
     color: black;
 }
+
 .night-mode {
     background-color: rgb(35, 35, 35);
     color: white;
 }
+
 .emoji-button {
     position: absolute;
     top: 10px;
